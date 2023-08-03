@@ -74,9 +74,9 @@ def retrieve_donors():
 # Connect to the MySQL server and create a cursor object
 db = mysql.connector.connect(
     host="localhost",
-    user="root",
-    password="12345",
-    database="blood1"
+    user="youruser",
+    password="password",
+    database="database"
 )
 cursor = db.cursor()
 
